@@ -53,9 +53,9 @@ dependencies {
     
     // Watchface dependencies
     implementation(libs.watchface)
-    implementation(libs.watchface-complications-data)
-    implementation(libs.watchface-complications-rendering)
-    implementation(libs.watchface-style)
+    implementation(libs["watchface-complications-data"])
+    implementation(libs["watchface-complications-rendering"])
+    implementation(libs["watchface-style"])
     
     androidTestImplementation(platform(libs.compose.bom))
     androidTestImplementation(libs.ui.test.junit4)
