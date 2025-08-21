@@ -16,7 +16,7 @@ import androidx.wear.watchface.ComplicationHelperActivity
 import androidx.wear.watchface.ComplicationSlot
 import androidx.wear.watchface.ComplicationSlotsManager
 import androidx.wear.watchface.ComplicationTapFilter
-import androidx.wear.watchface.ComplicationType
+import androidx.wear.watchface.*
 import androidx.wear.watchface.DrawMode
 import androidx.wear.watchface.Renderer
 import androidx.wear.watchface.TapEvent
