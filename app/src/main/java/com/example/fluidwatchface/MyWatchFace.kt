@@ -34,6 +34,4 @@ class MyWatchFaceRenderer(
         canvas.drawColor(Color.BLACK)
         val cx = bounds.exactCenterX()
         val cy = bounds.exactCenterY()
-        canvas.drawCircle(cx, cy, 40f, paint)
-    }
-}
+        canvas.drawCircle(cx, cy, 40f,
